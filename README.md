@@ -23,10 +23,12 @@ To get a Git project into your build:
 
 ### Step 1. Add the JitPack repository to your build file 
 
-
-allprojects {
-
-		repositories {
+		
+		    
+		allprojects {
+		
+		
+		       repositories {
 		
 			...
 			maven { url 'https://jitpack.io' }
@@ -36,15 +38,31 @@ allprojects {
 
 
 
-Step 2. Add the dependency
+### Step 2. Add the dependency
 
 
-
-
-dependencies {
-
-	        compile 'com.github.longtaoge:ToastUtil:v0.6'
+	
+	    dependencies {
+	    
+	          compile 'com.github.longtaoge:ToastUtil:v0.6'
 	}
+
+
+
+
+
+### Step 3. init 
+          
+          
+           ToastUtils.init(getApplicationContext());
+
+
+
+### Step 4.  use
+  
+  
+  
+             ToastUtils.i("提示信息").show();
 
 
 
