@@ -28,6 +28,6 @@ dependencies {
     compile 'com.android.support:design:25.1.0'
     testCompile 'junit:junit:4.12'
 
-    compile 'com.github.longtaoge:ToastUtil:v0.6'
-  //  compile project(':ToastUtils')
+    compile 'com.github.longtaoge:ToastUtil:v0.8'
+    // compile project(':ToastUtils')
 }
