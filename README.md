@@ -24,6 +24,7 @@ To get a Git project into your build:
 ### Step 1. Add the JitPack repository to your build file 
 
 
+
 allprojects {
 
 		repositories {
@@ -52,7 +53,7 @@ dependencies {
 License
 --------
 
-    Copyright (C) 2016, longtaoge
+    Copyright (C) 2017, longtaoge
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
