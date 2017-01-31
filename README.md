@@ -42,7 +42,7 @@ allprojects {
 	
 	    dependencies {
 	    
-	          compile 'com.github.longtaoge:ToastUtil:v0.6'
+	          compile 'com.github.longtaoge:ToastUtil:v0.9'
 	}
 
 
